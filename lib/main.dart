@@ -20,13 +20,11 @@ void main() async {
   runApp(MyApp());
 }
 
-final keyNavigator = GlobalKey<NavigatorState>();
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      navigatorKey: keyNavigator,
       routes: {},
       debugShowCheckedModeBanner: false,
       home: Home(),
